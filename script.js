@@ -1,33 +1,7 @@
 $(function(){
 
- /* ------------------------------------
-    トップ画面をウィンドウサイズに合わせて表示
-  -------------------------------------- */
 
-  $(window).load(function(){
-    var window_h = $(window).outerHeight();
-    $('.window_fixed').css('height', window_h+'px');
-    $(window).resize(function(){
-      window_h = $(window).outerHeight();
-      $('.window_fixed').css('height', window_h+'px');
-  });
-});
-
-
-  /*------------------------------------
-  top下のcontentScrollを押すと、
-  トップに飛び上がる（今のところ飛び上がらない）
-  --------------------------------------*/
-  $(function(){
-    $(".contentScroll").click(function(){
-      $(".contentScroll, .work, .footer").animate({
-        scrollTop: 0
-      }, 300);
-      return false;
-    });
-  });
-
-  /*----------------------
+ /*----------------------
       トップアニメーション
     ----------------------*/
   $('html').toggleClass('active');
@@ -54,6 +28,32 @@ $(function(){
   setInterval(function(){
     $('html').toggleClass('active5');
   }, 1500);
+
+
+ /* ------------------------------------
+    トップ画面をウィンドウサイズに合わせて表示
+  -------------------------------------- */
+
+  $(window).load(function(){
+    var window_h = $(window).outerHeight();
+    $('.window_fixed').css('height', window_h+'px');
+    $(window).resize(function(){
+      window_h = $(window).outerHeight();
+      $('.window_fixed').css('height', window_h+'px');
+    });
+  });
+
+
+  /*------------------------------------
+  top下のcontentScrollを押すと、
+  トップに飛び上がる（今のところ飛び上がらない）
+  --------------------------------------*/
+  $(".contentScroll").click(function(){
+    $(".contentScroll, .work, .footer").animate({
+      scrollTop: 0
+    }, 300);
+    return false;
+  });
 
 
 
@@ -85,5 +85,6 @@ $(function(){
     }, 300);
     return false;
   });
+
 });
 
