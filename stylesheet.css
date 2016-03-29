@@ -13,7 +13,6 @@ body{
 
 /*PC・タブレット
 ブラウザの幅が481px以上の時に表示される*/
-@media screen and (min-width: 481px){
   /* ----------------------------
               HEADER
   ---------------------------- */
@@ -28,6 +27,19 @@ body{
   ---------------------------- */
 
 
+ .top{
+  background-color: #9f9f9f;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  }
+
+  .box{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  }
 
 
 
@@ -60,7 +72,8 @@ body{
     text-align: center;
     font-size: 12px;
   }
-}
+
+
 
 
 
@@ -88,7 +101,7 @@ body{
 
 /*モバイル
 フラウザ幅が480px以下の時に表示される*/
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
   /* ----------------------------
               HEADER
   ---------------------------- */
@@ -203,7 +216,7 @@ body{
     transform: rotate3d(-20,70,4,60deg);
     border-radius: 50%;
   }
- .active5 .bd5{
+  .active5 .bd5{
     -webkit-transition: all 1.4s;
     transition: all 1.1s infinite ease 1.6s;
     -webkit-transform: rotate(180deg);
@@ -213,7 +226,7 @@ body{
 
 
 
-  .bdT{
+  .T_side{
     width: 100%;
     height:2px;
     top:0;
@@ -221,21 +234,21 @@ body{
     border-radius: 50%;
   }
 
-  .bdB{
+  .B_side{
     width: 100%;
     height:2px;
     bottom:0;
     right:0;
   }
 
-  .bdR{
+  .R_side{
     height:100%;
     width :2px;
     right:0;
     top:0;
   }
 
-  .bdL{
+  .L_side{
     height:100%;
     width :2px;
     left:0;
@@ -278,16 +291,16 @@ body{
 }
 
 
-@-webkit-keyframes fuwafuwa {
-  0% {-webkit-transform:translate(0, 0);}
-  50% {-webkit-transform:translate(0, -10px);}
-  100% {-webkit-transform:translate(0, 0);}
-}
-@-moz-keyframes fuwafuwa{
-  0% {-moz-transform:translate(0, 0);}
-  50% {-moz-transform:translate(0, -10px);}
-  100% {-moz-transform:translate(0, 0);}
-}
+  @-webkit-keyframes fuwafuwa {
+    0% {-webkit-transform:translate(0, 0);}
+    50% {-webkit-transform:translate(0, -10px);}
+    100% {-webkit-transform:translate(0, 0);}
+  }
+  @-moz-keyframes fuwafuwa{
+    0% {-moz-transform:translate(0, 0);}
+    50% {-moz-transform:translate(0, -10px);}
+    100% {-moz-transform:translate(0, 0);}
+  }
 
 .fadein{
 /*スクロールするとふわっと表示するやつ*/

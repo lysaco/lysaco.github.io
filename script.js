@@ -1,6 +1,9 @@
 $(function(){
 
-  /*トップ画面をウィンドウサイズに合わせて表示*/
+ /* ------------------------------------
+    トップ画面をウィンドウサイズに合わせて表示
+  -------------------------------------- */
+
   $(window).load(function(){
     var window_h = $(window).outerHeight();
     $('.window_fixed').css('height', window_h+'px');
@@ -11,15 +14,21 @@ $(function(){
   });
 
 
-  /*top下のcontentScrollを押すと、トップに飛び上がる（今のところ飛び上がらない）*/
-  $(".contenScroll").click(function(){
+  /*------------------------------------
+  top下のcontentScrollを押すと、
+  トップに飛び上がる（今のところ飛び上がらない）
+  --------------------------------------*/
+  $(".contentScroll").click(function(){
     $(".contentScroll, .work, .footer").animate({
       scrollTop: 0
     }, 300);
     return false;
   });
 
-  /*top animation*/
+
+  /*----------------------
+      トップアニメーション
+    ----------------------*/
   $('html').toggleClass('active');
   setInterval(function(){
     $('html').toggleClass('active');
@@ -47,11 +56,12 @@ $(function(){
 
 
 
-  /*----- scroll top -----*/
-  /*・トップページへの要素を隠す */
+  /*---------------------------
+      トップへスクロールするボタン
+    --------------------------*/
   var topBtn = $('#pagetop');
 
-  /*スクロールした場合*/
+  //スクロールした場合
   $('window').scroll(function(){
     //スクロール位置が100を超えた時
     if ($(this).scrollTop() > 200){
