@@ -4,29 +4,29 @@ $(function(){
  /*----------------------
       トップアニメーション
     ----------------------*/
-  $('.top').toggleClass('active');
+  $('.bd').toggleClass('active');
   setInterval(function(){
-    $('.top').toggleClass('active');
+    $('.bd').toggleClass('active');
   }, 1000);
 
-  $('.top').toggleClass('active2');
+  $('.bd2').toggleClass('active2');
   setInterval(function(){
-    $('.top').toggleClass('active2');
+    $('.bd2').toggleClass('active2');
   }, 1200);
 
-  $('.top').toggleClass('active3');
+  $('.bd3').toggleClass('active3');
   setInterval(function(){
-    $('.top').toggleClass('active3');
+    $('.bd3').toggleClass('active3');
   }, 1300);
 
-  $('.top').toggleClass('active4');
+  $('.bd4').toggleClass('active4');
   setInterval(function(){
-    $('.top').toggleClass('active4');
+    $('.bd4').toggleClass('active4');
   }, 1400);
 
-  $('.top').toggleClass('active5');
+  $('.bd5').toggleClass('active5');
   setInterval(function(){
-    $('.top').toggleClass('active5');
+    $('.bd5').toggleClass('active5');
   }, 1500);
 
 
