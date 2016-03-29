@@ -11,19 +11,21 @@ $(function(){
       window_h = $(window).outerHeight();
       $('.window_fixed').css('height', window_h+'px');
   });
+});
 
 
   /*------------------------------------
   top下のcontentScrollを押すと、
   トップに飛び上がる（今のところ飛び上がらない）
   --------------------------------------*/
-  $(".contentScroll").click(function(){
-    $(".contentScroll, .work, .footer").animate({
-      scrollTop: 0
-    }, 300);
-    return false;
+  $(function(){
+    $(".contentScroll").click(function(){
+      $(".contentScroll, .work, .footer").animate({
+        scrollTop: 0
+      }, 300);
+      return false;
+    });
   });
-
 
   /*----------------------
       トップアニメーション
@@ -58,6 +60,7 @@ $(function(){
   /*---------------------------
       トップへスクロールするボタン
     --------------------------*/
+
   var topBtn = $('#pagetop');
 
   //スクロールした場合
