@@ -10,7 +10,6 @@ $(function(){
     $(window).resize(function(){
       window_h = $(window).outerHeight();
       $('.window_fixed').css('height', window_h+'px');
-    });
   });
 
 
