@@ -110,7 +110,7 @@ body{
 
 .active .bd{
   -webkit-transition: all 1.4s;
-  transition: all 0.3s infinite ease 1s;
+  transition: all 0.5s infinite ease 1.5s;
   -webkit-transform: rotate(180deg);
   transform: rotate3d(10,10,1,180deg);
   border-radius: 50%;
@@ -118,7 +118,7 @@ body{
 
 .active2 .bd2{
   -webkit-transition: all 1.4s;
-  transition: all 0.5s infinite ease 1.2s;
+  transition: all 0.5s infinite ease 1.5s;
   -webkit-transform: rotate(180deg);
   transform: rotate3d(0,30,2,120deg);
   border-radius: 50%;
@@ -126,7 +126,7 @@ body{
 
 .active3 .bd3{
   -webkit-transition: all 1.4s;
-  transition: all 0.7s infinite ease 1.4s;
+  transition: all 0.5s infinite ease 1.5s;
   -webkit-transform: rotate(180deg);
   transform: rotate3d(-10,50,3,60deg);
   border-radius: 50%;
@@ -134,14 +134,14 @@ body{
 
 .active4 .bd4{
   -webkit-transition: all 1.4s;
-  transition: all 0.9s infinite ease 1.6s;
+  transition: all 0.s5 infinite ease 1.5s;
   -webkit-transform: rotate(180deg);
   transform: rotate3d(-20,70,4,60deg);
   border-radius: 50%;
 }
 .active5 .bd5{
   -webkit-transition: all 1.4s;
-  transition: all 1.1s infinite ease 1.6s;
+  transition: all 0.5s infinite ease 1.5s;
   -webkit-transform: rotate(180deg);
   transform: rotate3d(-30,90,5,60deg);
   border-radius: 50%;
@@ -167,23 +167,23 @@ body{
 }
 
 .fadeInDown {
- -webkit-animation-fill-mode:both;
- -ms-animation-fill-mode:both;
- animation-fill-mode:both;
- -webkit-animation-duration:1s;
- -ms-animation-duration:1s;
- animation-duration:1s;
- -webkit-animation-name: fadeInDown;
- animation-name: fadeInDown;
- visibility: visible !important;
+  -webkit-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:1s;
+  -ms-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important;
 }
 
 @-webkit-keyframes fadeInDown {
- 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 0% { opacity: 0; -webkit-transform: translateY(-30px); }
  100% { opacity: 1; -webkit-transform: translateY(0); }
 }
 @keyframes fadeInDown {
- 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 0% { opacity: 0; -webkit-transform: translateY(-30px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 }
 
@@ -320,10 +320,6 @@ footer{
     50% {-moz-transform:translate(0, -10px);}
     100% {-moz-transform:translate(0, 0);}
   }
-
-.fadein{
-/*スクロールするとふわっと表示するやつ*/
-}
 
 
   /* ----------------------------

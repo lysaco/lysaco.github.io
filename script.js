@@ -67,8 +67,8 @@ $(function(){
       topWindow = $(window).scrollTop();
   $('#animation').each(function(){
   var targetPosition = $(this).offset().top;
-  if(topWindow > targetPosition - windowHeight + 100){
-   $(this).addClass("fadeInDown");
+  if(topWindow > targetPosition - windowHeight + 200){
+   $(this).addClass('fadeInDown');
  }
  });
 });
