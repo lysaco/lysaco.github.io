@@ -51,7 +51,6 @@ $(function(){
   /*・トップページへの要素を隠す */
   var topBtn = $('#pagetop');
 
-
   /*スクロールした場合*/
   $('window').scroll(function(){
     //スクロール位置が100を超えた時

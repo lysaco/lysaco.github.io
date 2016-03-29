@@ -1,6 +1,7 @@
 body{
   margin: 0;
   background-color: #9f9f9f;
+  font-family: Futura;
 }
 
 .header{
@@ -317,12 +318,11 @@ body{
   #pagetop{
     cursor: pointer;
     position: fixed;
-    width: 24px;
-    height: 24px;
     right: 25px;
     bottom: 25px;
-    background-color: pink;
-    z-index: 10;
+    width: 24px;
+    height: 24px;
+    background: url(image/up.png);
   }
 
   /* ----------------------------
