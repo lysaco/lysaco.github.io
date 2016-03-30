@@ -1,10 +1,10 @@
 $(function(){
 
 
- /*----------------------
-      全体をほわんと表示
-  ----------------------*/
-$('body').fadeIn(2500);
+ /*--------------------------------
+      ページ読み込み全体をふわっと表示
+  --------------------------------*/
+$('body').fadeIn(3000);
 
 
 
@@ -55,8 +55,8 @@ $('body').fadeIn(2500);
   top下のcontentScrollを押すと、
   トップに飛び上がる（今のところ飛び上がらない）
   --------------------------------------*/
-  $(".contentScroll").click(function(){
-    $(".contentScroll, .work, .footer").animate({
+  $('.contentScroll').click(function(){
+    $('.contentScroll, .work, .footer').animate({
       scrollTop: 0
     }, 300);
     return false;
