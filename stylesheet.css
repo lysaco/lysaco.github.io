@@ -15,6 +15,7 @@ body{
   font-family:'sackers_gothic_medium-webfont';
   margin: 0;
   background-color: #9f9f9f;
+  display: none;
 }
 
 .header{
@@ -156,6 +157,7 @@ body{
   height: 1500px;
   background-color: #9f9f9f;
   text-align: center;
+  padding-top: 20px;
 }
 
 .work img{
@@ -193,8 +195,9 @@ body{
              FOOTER
 ---------------------------- */
 footer{
-  height: 200px;
+  height: 300px;
   width: 1280px;
+  padding-top: 50px;
 }
 
 .sns{
@@ -204,6 +207,7 @@ footer{
 
 .fa{
   margin: 20px;
+  color: #ffffff;
 }
 
 .fa-size{
@@ -216,7 +220,7 @@ footer{
 
 .copyright p{
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -348,7 +352,8 @@ footer{
   .footer{
     width: 100%;
     background-color: #9f9f9f;
-    padding-top: 30px;
+    height: 100px;
+    padding-top: 80px;
     padding-bottom: 40px;
   }
 
@@ -376,7 +381,7 @@ footer{
   }
 
   .copyright{
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
     margin: 0 auto;
     color: #ffffff;
