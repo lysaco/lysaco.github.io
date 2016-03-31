@@ -838,7 +838,7 @@ body{
 
 
 .work_container{
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -1086,6 +1086,13 @@ figure:hover figcaption p {
   /* ----------------------------
               WORK
   ---------------------------- */
+  .work{
+    width: 350px;
+  }
+
+  .work_container{
+    width: 100%;
+  }
 
   .work img{
     width: 330px;
@@ -1112,17 +1119,21 @@ figure:hover figcaption p {
     position: relative;
     width: 330px;
     clear: left;
-    margin: 0 auto;
+    margin: 0 30px;
     transform-origin: 
   }
 
+  figcaption{
+    padding: 0 20px;
+  }
+
   .left{
-    float: none:
+    clear: left;
   ;}
 
   .right{
-    float: none;
-  }
+    clear: right;
+    }
 
   /* ----------------------------
               FOOTER
