@@ -821,7 +821,7 @@ body{
 ---------------------------- */
 .work {
   width: 100%;
-  height: 2800px;
+  height: 1800px;
   text-align: center;
   padding-top: 20px;
   position: relative;
@@ -1079,7 +1079,7 @@ figure:hover figcaption p {
   ---------------------------- */
   .work{
     width: 100%;
-    height: 1700px;
+    height: 1600px;
   }
 
   .work_container{
