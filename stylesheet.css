@@ -951,7 +951,7 @@ figure:hover figcaption p {
   width: 1280px;
   padding-top: 50px;
   padding-bottom: 50px;
-  position: absolute;
+  z-index: 10;
 }
 
 .sns{
@@ -1034,10 +1034,6 @@ figure:hover figcaption p {
   height: 250px;
   position: relative;
   margin: 0 auto;
-  }
-
-  .animation{
-    position: relative;
   }
 
   .contentScroll{
@@ -1141,14 +1137,14 @@ figure:hover figcaption p {
     width: 100%;
     height: 200px;
     background-color: #9f9f9f;
-    height: 100px;
     padding-top: 80px;
     padding-bottom: 40px;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
   }
 
   .footer_container{
-    width: 300px;
+    width: 270px;
     margin: 0 auto;
   }
 
@@ -1159,17 +1155,17 @@ figure:hover figcaption p {
 
   .fa{
     margin: 16px;
-    color: #000000;
+    color: #ffffff;
   }
 
   .fa:hover{
     opacity: 0.5;
-    color: #000000;
+    color: #ffffff;
   }
 
   .fa-size{
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
   }
 
   .copyright{
