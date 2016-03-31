@@ -1139,8 +1139,6 @@ figure:hover figcaption p {
     background-color: #9f9f9f;
     padding-top: 80px;
     padding-bottom: 40px;
-    position: fixed;
-    overflow: hidden;
   }
 
   .footer_container{
@@ -1160,12 +1158,11 @@ figure:hover figcaption p {
 
   .fa:hover{
     opacity: 0.5;
-    color: #ffffff;
   }
 
   .fa-size{
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
   }
 
   .copyright{
