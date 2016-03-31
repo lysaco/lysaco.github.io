@@ -1089,10 +1089,12 @@ figure:hover figcaption p {
 
   .work img{
     width: 330px;
+    margin: 0 auto;
   }
 
-/*imgに直接マージンを付与すると、hoverした時に画像の周りに出てしまうので、imgクラスを付与してmargin調整*/
+/*imgに直接マージンを付与すると、hoverした時に画像の周りにhover部分が出てしまうので、imgクラスを付与してmargin調整*/
   .img{
+    width: 330px;
     margin: 20px auto;
   }
 
@@ -1110,6 +1112,8 @@ figure:hover figcaption p {
     overflow: hidden;
     position: relative;
     width: 330px;
+    clear: left;
+    margin: 0 auto;
   }
 
   /* ----------------------------
