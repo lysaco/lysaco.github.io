@@ -38,7 +38,7 @@ body{
 .top{
  height: 80%;
  width: 100%;
- position: relative;
+ position: fixed;
  display: none;
  }
 
