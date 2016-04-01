@@ -25,7 +25,7 @@ body{
 
 .header{
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 20%;
 }
 
 
@@ -1015,7 +1015,11 @@ figure:hover figcaption p {
   /* ----------------------------
               HEADER
   ---------------------------- */
-  .header{
+
+  .header p{
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 20px;
   }
 
 
