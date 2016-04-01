@@ -18,16 +18,6 @@ body{
   display: none;
 }
 
-.header{
-  height: 100px;
-  font-size: 30px;
-}
-
-.header{
-  display: inline-block;
-  margin-left: 20%;
-}
-
 
 
   /* ----------------------------
@@ -35,7 +25,9 @@ body{
   ---------------------------- */
 
 .header{
-  line-height: 50px;
+  display: inline-block;
+  position: relative;
+  margin-left: 0;
 }
 
 
@@ -1035,8 +1027,8 @@ figure:hover figcaption p {
   }
 
   .box{
-  width:  250px;
-  height: 250px;
+  width:  220px;
+  height: 220px;
   position: relative;
   margin: 20px auto;
   }
