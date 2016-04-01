@@ -14,7 +14,7 @@
 body{
   background-color: #9f9f9f;
   font-family: sackers_gothic_medium-webfont;
-  height: 2000px;
+  height: 2200px;
 }
 
 
@@ -818,10 +818,49 @@ body{
 
 .work{
     width: 700px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -500px;
-    margin-top: 450px;
-
+    margin: 100px 130px;
 }
+
+.work img{
+    margin-top: 100px;
+}
+
+
+/* ----------------------------
+             FOOTER
+---------------------------- */
+.footer{
+  height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sns{
+  width: 350px;
+  margin: 0 auto;
+}
+
+
+.fa{
+  margin: 20px;
+  color: #000000;
+}
+
+.fa-size{
+  font-size: 30px;/* アイコンの大きさ*/
+}
+
+.fa:hover{
+  opacity: 0.4;
+  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+}
+
+.copyright p{
+  text-align: center;
+  font-size: 10px;
+}
+
+
+
+
