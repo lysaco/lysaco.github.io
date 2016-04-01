@@ -15,7 +15,6 @@ body{
   font-family:'sackers_gothic_medium-webfont';
   margin: 0;
   background-color: #9f9f9f;
-  display: none;
 }
 
 
@@ -40,6 +39,7 @@ body{
  height: 80%;
  width: 100%;
  position: relative;
+ display: none;
  }
 
 .box{
