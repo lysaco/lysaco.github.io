@@ -825,11 +825,9 @@ body{
   position: relative;
 }
 
-#animation {
-}
-
-.img{
+.img img{
   margin: 40px ;
+  width: 85%;
 }
 
 
@@ -883,8 +881,8 @@ figcaption{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 83%;
   -webkit-transition: .3;
   opacity: 0;
   color: #ffffff;
@@ -897,12 +895,17 @@ figcaption h3,figcaption p {
   width: 100%;
 }
 
+figcaption{
+  font-size: 20px;
+}
+
 figcaption h3 {
 }
 
-figcaption p {
+figcaption p{
   width: 100%;
-  font-size: 5px;
+  font-size: 10px;
+  font-family: sackers_gothic_medium-webfont;
 }
 
 figure:hover figcaption {
@@ -910,12 +913,11 @@ figure:hover figcaption {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.6;
+  opacity: 0.8;
   background: rgba(0,0,0,0.5);
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
 }
-
 
 figure:hover figcaption p {
   position: absolute;
