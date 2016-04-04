@@ -245,7 +245,7 @@ $('.top').fadeIn(7000);
   --------------------------------------*/
   $('.contentScroll').click(function(){
     $('.contentScroll, .work, .footer').animate({
-      scrollTop: 0
+      scrollTop: 1000
     }, 300);
     return false;
   });
