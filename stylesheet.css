@@ -11,6 +11,8 @@
 }
 
 
+
+
 body{
   font-family:'sackers_gothic_medium-webfont';
   margin: 0;
@@ -966,7 +968,7 @@ figure:hover figcaption p {
   font-size: 30px;/* アイコンの大きさ*/
 }
 
-.fa:hover{
+.a:hover{
   opacity: 0.4;
   transition-duration: 0.8s;
   -webkit-transition-duration: 0.8s;
