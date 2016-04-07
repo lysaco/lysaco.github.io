@@ -256,11 +256,11 @@ $('.top').fadeIn(7000);
         画像をふわっと表示
     -----------------------*/
 
-  $('#animation').css('visibility','hidden');
+  $('img').css('visibility','hidden');
   $(window).scroll(function(){
   var windowHeight = $(window).height(),
       topWindow = $(window).scrollTop();
-  $('#animation').each(function(){
+  $('img').each(function(){
   var targetPosition = $(this).offset().top;
   if(topWindow > targetPosition - windowHeight + 200){
    $(this).addClass('fadeInDown');
