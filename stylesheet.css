@@ -52,8 +52,13 @@ a{
   /* ----------------------------
               HEADER
   ---------------------------- */
+.header{
+  height: 300px;
+}
+
 
 .name{
+  padding-top: 100px;
   margin-left: 10%;
   font-size: 25px;
   color: #000000;
