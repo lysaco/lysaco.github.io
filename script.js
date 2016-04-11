@@ -1,5 +1,31 @@
-$(function(){
+$(function() {
 
+ /*--------------------------------
+      ページ読み込み全体をふわっと表示
+  --------------------------------*/
+$(function() {
+  var h = $(window).height();
+ 
+  $('#loader-after').css('display','none');
+  $('#loader-before ,#loader').height(h).css('display','block');
+});
+ 
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-before').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#loader-after').css('display', 'block');
+});
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+ 
+function stopload(){
+  $('#loader-after').css('display','block');
+  $('#loader-before').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
 
  /*--------------------------------
       ページ読み込み全体をふわっと表示
