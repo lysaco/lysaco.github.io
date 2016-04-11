@@ -19,6 +19,10 @@ body{
   background-image: url(image/dot.gif);
 }
 
+a{
+  text-decoration: none;
+}
+
 #loader-before{
   display: none;
   position: fixed;
@@ -49,16 +53,30 @@ body{
               HEADER
   ---------------------------- */
 
-span.name span{
+.name{
   margin-left: 10%;
   font-size: 25px;
   color: #000000;
 }
 
-span.name:hover {
+
+a.name span.namae{
+  display: inline-block;
+  color: #000000;
+}
+
+a.name:hover span.namae{
+  display: none;
+}
+
+a.name span.reverse{
+  display: none;
+}
+
+a.name:hover span.reverse{
+  display: inline-block;
   text-decoration: line-through;
-  cursor: pointer;
-  color: red;
+  color: #000000;
 }
 
 
