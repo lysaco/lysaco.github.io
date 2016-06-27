@@ -1,398 +1,330 @@
 <!DOCTYPE html>
-<html
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+  <!-- OGP -->
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta property="og:title" content="RISAKO FURUKAWA" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://risakofurukawa.com/" />
+  <meta property="og:image" content="http://risakofurukawa.com/image/og.jpg/" />
+  <meta property="og:site_name" content="RISAKO FURUKAWA" />
+  <meta property="og:description" content="Portfolio of Risako Furukawa" />
+  <meta property="fb:app_id" content="212233495821211" />
 
-<!-- OGP -->
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<meta property="og:title" content="RISAKO FURUKAWA" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://lysaco.github.io/" />
-<meta property="og:image" content="https://lysaco.github.io/image.png/" />
-<meta property="og:site_name" content="RISAKO  FURUKAWA" />
-<meta property="og:description" content="古川理沙子のポートフォリオサイト" />
-<meta property="fb:app_id" content="212233495821211" />
-
-
-<!--JS-->
-  <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="script.js"></script>
-
-<!-- twitter card-->
+  <!-- twitter card-->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@lysaco">
   <meta name="twitter:creator" content="@lysaco">
-  <meta name="twitter:title" content="Risako Furukawa">
-  <meta name="twitter:description" content="portfolio of Risako Furukawa">
-  <meta name="twitter:image:src" content="http://lysaco.github.io/image.png">
+  <meta name="twitter:title" content="RISAKO FURUKAWA">
+  <meta name="twitter:description" content="Portfolio of Risako Furukawa">
+  <meta name="twitter:image:src" content="http://risakofurukawa.com/image/og.jpg">
 
+  <!--JS-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+  <script src="js/script.js"></script>
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Risako Furukawa</title>
 </head>
 
 
 <body>
   <div id="loader-before">
-    <div id="loader">
-      <img src="image/loader.gif" alt="now loading..."/>
-    </div>
+    <div id="loader"></div>
   </div>
   <div id="loader-after">
-<div class="window_fixed">
-  <div class="header">
-    <a class="name" href="https://lysaco.github.io/"><span class="namae">risako furukawa</span><span class="reverse">furukawa risako</span></a>
-  </div>
-  <div class="top">
-    <div class="animation">
-      <div class="box">
-<!--
-        <div class="bd">
+    <div class="window_fixed">
+      <div class="header">
+        <a class="name" href="index.html"><span class="namae">risako furukawa</span><span class="reverse">furukawa risako</span></a>
+        <div class="nav">
+          <a class="name nav-item" href="works.html"><span class="namae">works</span><span class="reverse">skrow</span></a>
+          <a class="name nav-item" href="about.html"><span class="namae">about</span><span class="reverse">tuoba</span></a>
+        </div>
+
+        <div id="js-popout-panel">
+          <a class="mobile-nav" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <div class="panel-inner">
+            <ul>
+              <li class="mobile-nav-item"><a href="index.html">HOME</a></li>
+              <li class="mobile-nav-item"><a href="about.html">ABOUT</a></li>
+              <li class="mobile-nav-item"><a href="works.html">WORKS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="top">
+        <div class="box">
+  <!--
+          <div class="bd">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+
+          <div class="bd2">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+          <div class="bd3">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+          <div class="bd4">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+          <div class="bd5">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+          <div class="bd6">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+          <div class="bd7">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+
+          <div class="bd8">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+
+          <div class="bd9">
+            <div class="T_side"></div>
+            <div class="B_side"></div>
+            <div class="R_side"></div>
+            <div class="L_side"></div>
+          </div>
+  -->
+        <div class="bd11 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd12 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd13 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd14 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd15 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd16 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd17 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd18 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd19 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd20 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd22 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd22 bd-color">
+          <div class="T_side"></div>
+          <div class="B_side"></div>
+          <div class="R_side"></div>
+          <div class="L_side"></div>
+        </div>
+        <div class="bd23 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd2">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd3">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd4">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd5">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd6">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd7">
+        <div class="bd24 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd8">
+        <div class="bd25 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd9">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
--->
-        <div class="bd11">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd12">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd13">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd14">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd15">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd16">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd17">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd18">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd19">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd20">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-        <div class="bd22">
+        <div class="bd26 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd22">
+        <div class="bd28 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd23">
+        <div class="bd29 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd24">
+        <div class="bd30 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd25">
+        <div class="bd31 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd26">
+        <div class="bd32 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd28">
+        <div class="bd33 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd29">
+        <div class="bd34 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd30">
+        <div class="bd35 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd31">
+        <div class="bd36 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd32">
+        <div class="bd37 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd33">
+        <div class="bd38 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd34">
+        <div class="bd39 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
 
-        <div class="bd35">
+        <div class="bd40 bd-color">
           <div class="T_side"></div>
           <div class="B_side"></div>
           <div class="R_side"></div>
           <div class="L_side"></div>
         </div>
-
-        <div class="bd36">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
+      </div>
+      <div class="footer">
+        <div class="footer_container">
+          <div class="sns">
+            <a href="https://www.facebook.com/risako.furukawa.9/" target="_blank" class="fa fa-facebook fa-size"> </a>
+            <a href="https://jp.pinterest.com/lysaco/" target="_blank" class="fa fa-pinterest fa-size"></a>
+            <a href="http://lisacolisa.tumblr.com/" target="_blank" class="fa fa-tumblr fa-size"></a>
+          </div>
         </div>
-
-        <div class="bd37">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-
-        <div class="bd38">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-
-        <div class="bd39">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-
-        <div class="bd40">
-          <div class="T_side"></div>
-          <div class="B_side"></div>
-          <div class="R_side"></div>
-          <div class="L_side"></div>
-        </div>
-
-
-
       </div>
     </div>
-  </div>
-
-  <div class="contentScroll">
-    <a class="arrow"></a>
   </div>
 </div>
-
-  <div class="work">
-    <div class="work_container">
-        <h2>work</h2>
-        <a href="page.html" target="_blank">
-          <figure class="img left">
-            <img src="image/business_card.jpg" target="_blank" rel="work1">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p class="work_description">busibess card / design</p>
-            </figcaption>
-          </figure>
-        </a>
-
-        <a href="page.html" target="_blank">
-          <figure class="img right">
-            <img src="image/work.jpg" rel="work2">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p>hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
-            </figcaption>
-          </figure>
-        </a>
-
-        <a href="https://lysaco.github.io/" target="_blank">
-          <figure class="img left">
-            <img src="image/work.jpg" rel="work">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p class="work_description">hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
-            </figcaption>
-          </figure>
-        </a>
-
-        <a href="https://lysaco.github.io/" target="_blank">
-          <figure class="img right">
-            <img src="image/work.jpg" rel="work">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p class="work_description">hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
-            </figcaption>
-          </figure>
-        </a>
-
-        <a href="https://lysaco.github.io/" target="_blank">
-          <figure class="img left">
-            <img src="image/work.jpg" rel="work">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p class="work_description">hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
-            </figcaption>
-          </figure>
-        </a>
-
-        <a href="https://lysaco.github.io/" target="_blank">
-          <figure class="img right">
-            <img src="image/work.jpg" rel="work">
-            <figcaption>
-              <h3>Caption Title</h3>
-              <p class="work_description">hoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hogehoge hoge hogehoge hogehoge hogehoge hogehoge hoge</p>
-            </figcaption>
-          </figure>
-        </a>
-
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="footer_container">
-      <div class="sns">
-        <a href="https://www.facebook.com/risako.furukawa.9" target="_blank"><i class="fa fa-facebook fa-size"></i></a>
-        <a href="https://jp.pinterest.com/lysaco/" target="_blank"><i class="fa fa-pinterest fa-size"></i></a>
-        <a href="http://lisacolisa.tumblr.com/" target="_blank"><i class="fa fa-tumblr fa-size"></i></a>
-        <a href="https://www.behance.net/lysaco" target="_blank"><i class="fa fa-behance fa-size"></i></a>
-       <a href="https://www.instagram.com/lisacolisa/" target="_blank"><i class="fa fa-instagram fa-size"></i></a>
-      </div>
-      <div id="#pagetop"></div>
-      <div class="copyright">
-        <p>©2016 All Rights Reserved.</p>
-      </div>
-    </div>
-  </div>
-  </div>
 </body>
 </html>
